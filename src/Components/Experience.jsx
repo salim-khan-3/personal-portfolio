@@ -75,7 +75,7 @@ const Experience = () => {
               <div className="w-8 md:w-1/2" />
 
               {/* Experience Card */}
-              <div className="w-full md:w-1/2 pl-16 md:pl-12 pr-6 md:pr-0">
+              <div className="w-full md:w-1/2 px-6 md:px-12 pr-6 md:pr-0">
                 <motion.div
                   whileHover={{ y: -8, transition: { duration: 0.3 } }}
                   className="bg-gray-800/50 backdrop-blur-md rounded-3xl p-8 border border-gray-700 hover:border-purple-500/50 transition-all duration-500 shadow-xl"

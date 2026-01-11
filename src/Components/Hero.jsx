@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
+import mdSalimImg from "../assets/mdsalim.jpg"
 
 const Hero = () => {
     return (
@@ -99,7 +100,7 @@ const Hero = () => {
                         
                         <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-purple-500/30 shadow-2xl">
                             <img
-                                src="https://media.gettyimages.com/id/1362142163/photo/headshot-of-indian-businessman-in-early-30s.jpg?s=612x612&w=gi&k=20&c=7a5GlCSeIdzrBZ53rUWLmYJmyr4DD18DcTrL5SApo9U="
+                                src={mdSalimImg}
                                 alt="Salim Islam - Full Stack Developer"
                                 className="object-cover w-full h-full"
                             />

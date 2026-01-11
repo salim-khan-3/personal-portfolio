@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import mdSalimImg from "../assets/mdsalim.jpg"
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
               {/* Main Image */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-purple-500/30">
                 <img
-                  src="https://media.gettyimages.com/id/1362142163/photo/headshot-of-indian-businessman-in-early-30s.jpg?s=612x612&w=gi&k=20&c=7a5GlCSeIdzrBZ53rUWLmYJmyr4DD18DcTrL5SApo9U="
+                  src={mdSalimImg}
                   alt="Salim Islam"
                   className="w-full h-auto max-w-md object-cover"
                 />
