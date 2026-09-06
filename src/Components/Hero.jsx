@@ -148,7 +148,7 @@ const Hero = () => {
             className="flex gap-8 pt-4"
           >
             {[
-              // { value: '3+', label: 'Years Exp.' },
+             
               { value: '5+', label: 'Projects' },
     
             ].map((stat) => (
